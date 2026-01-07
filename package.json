@@ -16,7 +16,7 @@
     "@rn-primitives/types": "^1.1.0",
     "babel-preset-expo": "~54.0.0",
     "clsx": "^2.1.1",
-    "expo": "~54.0.30",
+    "expo": "~54.0.31",
     "expo-blur": "~15.0.8",
     "expo-constants": "~18.0.9",
     "expo-font": "~14.0.8",
