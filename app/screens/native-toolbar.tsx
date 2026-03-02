@@ -38,11 +38,13 @@ export default function NativeToolbarScreen() {
                     
                 <Stack.Toolbar.Spacer />
                     <Stack.Toolbar.Button
-                        icon="info.circle"
+                        tintColor="white"
+                        icon="clock"
                         selected={isFilterOpen}
                         onPress={() => {setIsBoxOpen(false); setIsFilterOpen((prev) => !prev)}}
                         variant="plain"
                     >
+                        <Text>24</Text>
 
                     </Stack.Toolbar.Button>
 

@@ -20,11 +20,12 @@ export default function Home() {
                     <Text className='text-5xl font-bold text-text'>Hello there!</Text>
                     <Text className='text-text text-lg opacity-50'>Welcome to my playground</Text>
                 </View>
+                <LinkItem href='/screens/header-drawer' icon='layout' title='Header Drawer' description='Header drawer sliding down' />
                 <LinkItem href='/screens/skia' icon='bar-chart' title='Chart' description='Skia animated chart' />
                 <LinkItem href='/screens/bottom-acc' icon='activity' title='Bottom Accessory' description='iOS native tab accessory' />
                 <LinkItem href='/screens/native-toolbar' icon='menu' title='Native Toolbar' description='iOS bottom toolbar (v7 beta)' />
                 <LinkItem href='/screens/native-demo' icon='smartphone' title='Native Sheets' description='iOS form sheet dialogs' />
-              
+                <LinkItem href='/screens/test' icon='smartphone' title='Test' description='Test' />
                 <LinkItem href='/screens/notes' icon='book-open' title='Notes' description='Expandable cards' />
                 <LinkItem href='/screens/product' icon='shopping-cart' title='Product' description='Procuct details' />
                 <LinkItem href='/screens/dropdown' icon='chevron-down' title='Dropdown' description='Expandable dropdown' />
@@ -71,7 +72,7 @@ const LinkItem = ({ href, icon, title, description, comingSoon = false }: LinkIt
                 }}
                 className='flex-row items-center bg-secondary rounded-3xl px-4 py-4 mb-3'>
                 <View className='w-12 h-12 bg-background flex items-center justify-center rounded-full'>
-                        <Feather name={icon} size={18} color={colors.icon} />
+                    <Feather name={icon} size={18} color={colors.icon} />
                 </View>
                 <View className='justify-center ml-4'>
                     <View className='flex-row items-center'>
