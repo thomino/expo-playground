@@ -20,6 +20,7 @@ export default function Home() {
                     <Text className='text-5xl font-bold text-text'>Hello there!</Text>
                     <Text className='text-text text-lg opacity-50'>Welcome to my playground</Text>
                 </View>
+                <LinkItem href='/screens/pendulum-toggle' icon='toggle-right' title='Pendulum Toggle' description='Physics-based theme switcher' />
                 <LinkItem href='/screens/drip' icon='droplet' title='Drip' description='Paint dripping dark theme transition' />
                 <LinkItem href='/screens/island-player' icon='music' title='Island Player' description='iPhone 17' />
                 <LinkItem href='/screens/gooey' icon='circle' title='Gooey' description='Gooey morphing effect with Skia' />
